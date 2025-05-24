@@ -1,0 +1,54 @@
+State:-   state represents the value of dynamic properties of react component 
+react provides dynamic data store for each component 
+
+hook-- useState
+hooks used in only function based components but not in class components 
+hooks has two types:-
+1. built in hooks:-
+a) useState
+b) useEffect
+c) useReducer
+d) useContext
+e) useCallBack
+f) useMemo
+2. custom hooks:-
+
+
+2. predefined hooks :-
+1. useState
+2. useEffect
+3. useContext
+4. useReducer
+5. useRef
+6. useCallBack
+7. useImperativeHandle
+
+mutable states and props are immutable
+
+what is  useEffct() hook :- hook to perform side effect task(meaans :- setTimeout(time interval methods calling)) as well s it is useful for to  achieve  component life cycle methods.
+
+
+
+useRef Hook:- to perform Dom Manipulation   (or)
+
+handle DOM methods and property thorugh useRef
+
+
+
+1.Display character count below input field 
+2. limit the input to  20 character  and show  warning if exceeded
+3. add a button to reset the title to React Application 
+
+
+useContext:-Context Api:-Number Of Components:-to use context api we need to create context and provider and consumer  and we need to wrap the provider in the app component and we need to use the consumer in the component where we need to use the context
+
+
+Props Drilling:- this is problem thats why we use Context Api
+another one useContext
+
+
+useMemo:-
+useMemo is a hook that allows you to memoize a value, so that it's not recalculated every time the component re-renders.
+
+ React Routing :-
+ Routing:- Navigation betwen the pages --Single Page Application 
