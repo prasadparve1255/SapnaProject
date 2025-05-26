@@ -86,12 +86,17 @@ function AuthForm() {
     }
 
     try {
-      const res = await axios.post(registerUrl, { name, email, password });
+      // Send 'uname' instead of 'name' to match backend OR update backend to accept 'name'
+      const res = await axios.post(registerUrl, { uname: name, email, password });
       alert(res.data.message);
       setShowLogin(true);
       setForm({ name: "", email: "", password: "", confirmPassword: "" });
     } catch (err) {
-      alert(err.response?.data?.message || "Signup failed ❌");
+      alert(
+        err.response?.data?.error ||
+        err.response?.data?.message ||
+        "Signup failed ❌"
+      );
     }
   };
 
