@@ -8,3 +8,6 @@ return token? <Outlet></Outlet>:<Navigate to="auth"/>
 }
 
 export default ProtectedRoute
+
+
+
